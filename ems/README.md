@@ -1,15 +1,10 @@
-# Employee Management System
 
-This is an Employee Management System where both employees and admins can log in. The admin can assign tasks to employees, and employees can manage their tasks effectively.
 
-## Features
-- Admin assigns tasks to employees.
-- Employees can view their tasks, mark them as active, completed, or failed.
-- Uses `localStorage` for data persistence.
-- React-based frontend with contextual state management using `AuthProvider`.
+# React + Vite
 
-## Installation
-1. Clone the repository.
-2. Run `npm install` to install dependencies.
-3. Start the application with `npm start`.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
